@@ -12,7 +12,7 @@ This project will demonstrate the following:
 
 # Scenario
 
-This part of the session shows how to consume a XML payload and perform various kinds of operations on that payload. Let’s assume that the payload is from an API exposed by a retail shop and this XML payload contains the information about the customers, their orders and the items included in those orders. Same customers may come several times within the day.
+This part of the session shows how to consume a XML payload and perform various kinds of operations on that payload. Let’s assume that the payload is from an API exposed by a retail shop and this XML payload contains the information about the customers, their orders and the items included in those orders. Same customers may come several times within the day. We want to expose another service which extract certain information from the existing service return different responses.
 
 ## Prerequisites
 
