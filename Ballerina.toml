@@ -1,0 +1,8 @@
+[package]
+org = "gimantha"
+name = "customer_order_details"
+version = "0.1.0"
+distribution = "2201.3.0-rc3"
+
+[build-options]
+observabilityIncluded = true
