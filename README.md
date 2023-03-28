@@ -75,4 +75,4 @@ In this scenario, the same customer can come multiple times within the day to pu
 
 This use-case shows how to remove duplicates using a query expression which generates a map keeping the `id` as the key. We will be directly using a query expression to iterate through the XML and generate a map while de-duplicating the items and convert that map to an array of items using `toArray` langlib function and return it as a JSON response. This example also illustrates how to use the langlib function `fromString` to convert string values extracted from the XML to integers or floating point numbers.
 
-<img src="./images/unique-items.png">
+<img src="./images/de-dup-items.png">
